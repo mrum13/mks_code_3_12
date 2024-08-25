@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:makassar_coding_3_12/detail_page.dart';
-import 'package:makassar_coding_3_12/home_page.dart';
-import 'package:makassar_coding_3_12/login_page.dart';
+// import 'package:makassar_coding_3_12/detail_page.dart';
+// import 'package:makassar_coding_3_12/home_page.dart';
+// import 'package:makassar_coding_3_12/login_page.dart';
 import 'package:makassar_coding_3_12/main_page.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       // routes: {
       //   '/home': (context) => HomePage(),
       //   '/detail': (context) => DetailPage(),
